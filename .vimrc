@@ -4,6 +4,10 @@ version 5.0
 
 set nocompatible " has to be on the first line
 
+
+set tabstop=4
+
+
 set modeline
 set modelines=3
 
@@ -18,6 +22,7 @@ set number
 set nobackup
 set viminfo='20,\"50
 
+" don't forget to set 'export TERM=xterm-256color'
 set background=dark
 colorscheme blackboard
 
@@ -55,7 +60,7 @@ set shiftwidth=4
 
 "set cindent
 "set smartindent
-set noautoindent
+set autoindent
 set so=7
 
 """" Formatting
